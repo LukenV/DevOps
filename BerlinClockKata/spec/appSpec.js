@@ -2,10 +2,16 @@ const Main = require("../src/app") ;
 
 const main = new Main();
 
-describe("phrase", function() {
+describe("phase", function() {
 
-    it("phrase 2",function() {
+    it("phase 2",function() {
     let result = main.simpleMinutes(1);
+
+        expect(result).toBe("j");
+    });
+
+    it("phase 3", function(){
+        let result = main.simpleMinutes(2);
 
         expect(result).toBe("j");
     });
