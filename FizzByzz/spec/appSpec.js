@@ -2,7 +2,7 @@ const Main = require('../src/app.js');
 
 describe( "A suite of test for the main class", () => {
 
-    // Arrange tets
+    // Arrange
     const main = new Main();
     const { fizzByzz } = main;
 
