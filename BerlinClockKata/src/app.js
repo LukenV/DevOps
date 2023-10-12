@@ -8,7 +8,11 @@ class Main{
  
 
         if(minutes === 2){
-            return "j";
+            return "jj";
+        }
+
+        if(minutes === 3){
+            return "jjj";
         }   }
 }
 module.exports = Main;
