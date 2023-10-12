@@ -13,6 +13,10 @@ class Main{
 
         if(minutes === 3){
             return "jjj";
-        }   }
+        }
+        if(minutes === 4){
+            return "jjjj";
+        }
+    }
 }
 module.exports = Main;

@@ -22,4 +22,10 @@ describe("phase", function() {
         expect(result).toBe("jjj");
     });
 
+    it("phase 4", function(){
+        let result = main.simpleMinutes(4);
+        
+        expect(result).toBe("jjjj");
+    })
+
 });
