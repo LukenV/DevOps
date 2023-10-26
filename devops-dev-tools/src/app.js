@@ -1,6 +1,6 @@
-function checkNames(array) {
-    array = array.filter( x => !x.toLowerCase().includes('x'))
-    return array;
+function checkNames(names) {
+    const updatedNames = names.filter( name => !name.toLowerCase().includes('x'))
+    return updatedNames;
 }
 
 module.exports = {
