@@ -5,6 +5,7 @@ function sum(a, b) {
 }
 
 function filterNamesWithoutX(array) {
+    array = array.filter( x => !x.toLowerCase().includes('x'))
     return array;
 }
 
