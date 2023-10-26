@@ -1,5 +1,4 @@
-console.log('FIXME');
-function sum(a, b, c=0) {
-    return a + b + c;
-};
+function sum(a, b) {
+    return a + b;
+}
 module.exports = sum;
