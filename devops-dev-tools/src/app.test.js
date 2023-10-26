@@ -15,3 +15,8 @@ test('array containing two names with a x', () => {
   const array = ['DMX', 'Xzibit', 'JeanKevin'];
   expect(filterNamesWithoutX(array)).toStrictEqual(['JeanKevin']);
 });
+
+test('array containing one name with a x', () => {
+  const array = ['JC', 'Leo', 'xena'];
+  expect(filterNamesWithoutX(array)).toStrictEqual(['JC', 'Leo']);
+});
