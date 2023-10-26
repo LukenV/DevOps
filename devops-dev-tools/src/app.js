@@ -1,5 +1,5 @@
 function checkNames(names) {
-    const updatedNames = names.filter( name => !name.toLowerCase().includes('x'))
+    const updatedNames = names.filter( name => !name.toLowerCase().includes('x'));
     return updatedNames;
 }
 
